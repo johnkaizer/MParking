@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/DigiParking/app/src/main/res/drawable/btn_back.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/DigiParking/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/DigiParking/app/src/main/res/layout/activity_sign_up.xml" value="0.15625" />
         <entry key="..\:/DigiParking/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
         <entry key="..\:/DigiParking/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
