@@ -24,8 +24,6 @@ X
 Mapp/src/androidTest/java/com/project/digiparking/ExampleInstrumentedTest.java,6\3\63553cf8d5d9a49ccfb3e702e06ec1f77c6573ad
 n
 >app/src/test/java/com/project/digiparking/ExampleUnitTest.java,b\2\b2f9cee725ac64480058f490e55bdae1431d8334
-y
-Iapp/src/main/java/com/project/digiparking/ui/gallery/GalleryFragment.java,f\b\fbbd8ce2334194dc6884f5cd34e28a60520e2c2a
 z
 Japp/src/main/java/com/project/digiparking/ui/gallery/GalleryViewModel.java,9\6\966fe2ee525b00bfe42aa2570c0f0bc6db2a004c
 s
@@ -34,7 +32,5 @@ t
 Dapp/src/main/java/com/project/digiparking/ui/home/HomeViewModel.java,b\6\b652f61896c96d5cad6bcce09d65f2d51cdf6ee0
 k
 ;app/src/main/java/com/project/digiparking/MainActivity.java,7\7\770fd1c0884afde5eaca941c242fa96deed32303
-}
-Mapp/src/main/java/com/project/digiparking/ui/slideshow/SlideshowFragment.java,d\d\dd15c26b9122bbc871e2a384deb7da967c952b39
 ~
 Napp/src/main/java/com/project/digiparking/ui/slideshow/SlideshowViewModel.java,c\d\cd81e3ee021be89f0417a14d1481782282d820c7

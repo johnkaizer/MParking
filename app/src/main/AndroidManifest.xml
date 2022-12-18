@@ -14,11 +14,11 @@
         android:theme="@style/Theme.DigiParking"
         tools:targetApi="31">
         <activity
-            android:name=".SignUpActivity"
+            android:name=".Authentication.SignUpActivity"
             android:exported="false"
             android:theme="@style/Theme.DigiParking.NoActionBar" />
         <activity
-            android:name=".SignInActivity"
+            android:name=".Authentication.SignInActivity"
             android:exported="true"
             android:theme="@style/Theme.DigiParking.NoActionBar" >
             <intent-filter>

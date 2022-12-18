@@ -11,5 +11,5 @@
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
     <string name="email">Enter email</string>
-    <string name="account">Don\'t have an Account</string>
+    <string name="account">don\'t have an account</string>
 </resources>

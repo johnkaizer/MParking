@@ -4,8 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidStudioProjects/DigiParking/app/src/main/res/drawable/btn_back.xml" value="0.1" />
-        <entry key="..\:/AndroidStudioProjects/DigiParking/app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/DigiParking/app/src/main/res/layout/activity_main.xml" value="0.1743659420289855" />
+        <entry key="..\:/AndroidStudioProjects/DigiParking/app/src/main/res/layout/activity_sign_in.xml" value="0.22" />
         <entry key="..\:/AndroidStudioProjects/DigiParking/app/src/main/res/layout/activity_sign_up.xml" value="0.15625" />
+        <entry key="..\:/AndroidStudioProjects/DigiParking/app/src/main/res/layout/app_bar_main.xml" value="0.1743659420289855" />
+        <entry key="..\:/AndroidStudioProjects/DigiParking/app/src/main/res/layout/fragment_gallery.xml" value="0.1743659420289855" />
+        <entry key="..\:/AndroidStudioProjects/DigiParking/app/src/main/res/layout/fragment_home.xml" value="0.1743659420289855" />
+        <entry key="..\:/AndroidStudioProjects/DigiParking/app/src/main/res/layout/fragment_slideshow.xml" value="0.1743659420289855" />
+        <entry key="..\:/AndroidStudioProjects/DigiParking/app/src/main/res/layout/nav_header_main.xml" value="0.1743659420289855" />
+        <entry key="..\:/AndroidStudioProjects/DigiParking/app/src/main/res/menu/activity_main_drawer.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/DigiParking/app/src/main/res/menu/main.xml" value="0.1" />
         <entry key="..\:/DigiParking/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
         <entry key="..\:/DigiParking/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
         <entry key="..\:/DigiParking/app/src/main/res/layout/content_main.xml" value="0.17074275362318841" />

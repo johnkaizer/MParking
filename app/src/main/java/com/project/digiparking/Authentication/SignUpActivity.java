@@ -1,10 +1,13 @@
-package com.project.digiparking;
+package com.project.digiparking.Authentication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.project.digiparking.MainActivity;
+import com.project.digiparking.R;
 
 public class SignUpActivity extends AppCompatActivity {
 

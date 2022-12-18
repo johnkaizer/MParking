@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignInActivity"
+    tools:context=".Authentication.SignInActivity"
     android:orientation="vertical"
     android:background="@color/white">
     <ImageView
@@ -74,8 +74,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="14dp"
-        android:text="Forgot password?"
         android:onClick="password"
+        android:text="forgot password?"
         android:textColor="@color/grey"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/editText3"
