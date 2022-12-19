@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "540911183691",
+    "project_id": "digiparking-ec0f1",
+    "storage_bucket": "digiparking-ec0f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540911183691:android:c4ac826d9078ef0555eace",
+        "android_client_info": {
+          "package_name": "com.project.digiparking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540911183691-5fbbj3jqgbs0ate0fkrv1b7t8igt51qq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8A4cQ5255nTZtIXff4pkzxobby4TeDGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540911183691-5fbbj3jqgbs0ate0fkrv1b7t8igt51qq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
