@@ -1,8 +1,10 @@
-package com.project.digiparking;
+package com.project.digiparking.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.project.digiparking.R;
 
 public class ProfileActivity extends AppCompatActivity {
 

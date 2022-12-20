@@ -106,6 +106,7 @@ public class SignInActivity extends AppCompatActivity {
 
                     startActivity(new Intent(SignInActivity.this, MainActivity.class));
                     Toast.makeText(SignInActivity.this,"Logged in successfully",Toast.LENGTH_SHORT).show();
+                    finish();
                 }else{
                     Toast.makeText(SignInActivity.this,"Failed to log in check your credentials and Internet connection",Toast.LENGTH_SHORT).show();
                 }

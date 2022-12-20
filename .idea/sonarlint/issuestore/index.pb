@@ -20,8 +20,6 @@ n
 >app/src/test/java/com/project/digiparking/ExampleUnitTest.java,b\2\b2f9cee725ac64480058f490e55bdae1431d8334
 z
 Japp/src/main/java/com/project/digiparking/ui/gallery/GalleryViewModel.java,9\6\966fe2ee525b00bfe42aa2570c0f0bc6db2a004c
-s
-Capp/src/main/java/com/project/digiparking/ui/home/HomeFragment.java,5\1\519cd0d549654e0810bb2c3d09c5c9be1013ae24
 t
 Dapp/src/main/java/com/project/digiparking/ui/home/HomeViewModel.java,b\6\b652f61896c96d5cad6bcce09d65f2d51cdf6ee0
 ~
