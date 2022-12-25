@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DigiParking</string>
+    <string name="app_name">MParking</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -12,4 +12,15 @@
     <string name="menu_slideshow">Slideshow</string>
     <string name="email">Enter email</string>
     <string name="account">don\'t have an account</string>
+
+    //Drop down CardViews in about screen
+    <string name="MParking_details">MParking helps you find and book parking at the best price. Whether you’re looking for discount parking near your office downtown or want to find the best airport parking before your trip, you can reserve a convenient space with the MParking app.</string>
+    <string name="MParking_details1">How MParking Works
+\n• Search for a parking spot where and when you need it. Enter your destination by address, landmark name or neighborhood to see available spaces nearby.
+\n• Compare prices up-front at a number of garages and lots. Pick the best option for you and save money.
+\n• Reserve a spot at select garages and lots with a few quick taps and pay with your smartphone. Browse thousands more parking facilities for pricing and amenity info.
+\n• Get turn-by-turn driving directions to your space. BestParking links directly to your favorite navigation app.
+\n• After reserving a space, enter your garage or lot easily with your digital parking pass and park your car in seconds.</string>
+    <string name="MParking_details2">Take the hassle out of parking with the MParking app. Find parking in any major city, compare prices, plus save up to 50% when you book in advance.Free yourself from parking hassles by choosing the way you\'d like to book with plenty of choices, parking times to suit everyone, close-by locations, on the go on mobile./n Make payments through mpesa and scan QR code to gain access.</string>
+    <string name="MParking">\@MParking</string>
 </resources>
