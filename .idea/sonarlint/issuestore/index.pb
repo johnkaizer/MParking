@@ -22,8 +22,6 @@ t
 Dapp/src/main/java/com/project/digiparking/ui/home/HomeViewModel.java,b\6\b652f61896c96d5cad6bcce09d65f2d51cdf6ee0
 ~
 Napp/src/main/java/com/project/digiparking/ui/slideshow/SlideshowViewModel.java,c\d\cd81e3ee021be89f0417a14d1481782282d820c7
-y
-Iapp/src/main/java/com/project/digiparking/ui/gallery/GalleryFragment.java,f\b\fbbd8ce2334194dc6884f5cd34e28a60520e2c2a
 }
 Mapp/src/main/java/com/project/digiparking/ui/slideshow/SlideshowFragment.java,d\d\dd15c26b9122bbc871e2a384deb7da967c952b39
 <
@@ -40,10 +38,6 @@ u
 Eapp/src/main/java/com/project/digiparking/Adapters/AdvertAdapter.java,3\b\3b461c832989176e460645fade22ecb4b62f0172
 p
 @app/src/main/java/com/project/digiparking/Model/AdvertModel.java,8\5\85c3afaf293c911ecdde4d8387ae60bb954de8b6
-v
-Fapp/src/main/java/com/project/digiparking/Activities/HelpActivity.java,c\3\c33bb7e7d1b86d5e08538c1beaf411bf7c5c2386
-y
-Iapp/src/main/java/com/project/digiparking/Activities/ProfileActivity.java,8\e\8ec5c4811bb3ce1df8c7e71592cbc4281533f4b0
 |
 Lapp/src/main/java/com/project/digiparking/Authentication/SignInActivity.java,9\6\9672e4645efe19df8b673924c232cb5ed5d229d0
 v

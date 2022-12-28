@@ -4,10 +4,12 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.project.digiparking.Model.LocationModel;
@@ -36,6 +38,7 @@ public class LocationAdapter extends RecyclerView.Adapter<LocationAdapter.ViewHo
         holder.image.setImageResource(list.get(position).getImage());
         holder.amount.setText(list.get(position).getAmount());
         holder.name.setText(list.get(position).getName());
+        holder.cardV.startAnimation(AnimationUtils.loadAnimation(holder.itemView.getContext(),R.anim.anim_one));
 
     }
 
@@ -48,11 +51,13 @@ public class LocationAdapter extends RecyclerView.Adapter<LocationAdapter.ViewHo
         ImageView image;
         TextView name;
         TextView amount;
+        CardView cardV;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             image = itemView.findViewById(R.id.imageView3);
             name = itemView.findViewById(R.id.textView8);
             amount = itemView.findViewById(R.id.amount);
+            cardV = itemView.findViewById(R.id.cardView1);
         }
     }
 }

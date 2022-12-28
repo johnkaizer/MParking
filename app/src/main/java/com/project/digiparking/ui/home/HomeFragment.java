@@ -38,10 +38,10 @@ public class HomeFragment extends Fragment {
         ImageSlider  imageSlider = root.findViewById(R.id.imageView2);
         ArrayList<SlideModel> slideModels = new ArrayList<>();
         slideModels.add(new SlideModel(R.drawable.park4, ScaleTypes.FIT));
-        slideModels.add(new SlideModel(R.drawable.park1, ScaleTypes.FIT));
-        slideModels.add(new SlideModel(R.drawable.park2, ScaleTypes.FIT));
         slideModels.add(new SlideModel(R.drawable.park3, ScaleTypes.FIT));
         slideModels.add(new SlideModel(R.drawable.park5, ScaleTypes.FIT));
+        slideModels.add(new SlideModel(R.drawable.park2, ScaleTypes.FIT));
+        slideModels.add(new SlideModel(R.drawable.park1, ScaleTypes.FIT));
         imageSlider.setImageList(slideModels,ScaleTypes.FIT);
 
         location = root.findViewById(R.id.parkingRv);
