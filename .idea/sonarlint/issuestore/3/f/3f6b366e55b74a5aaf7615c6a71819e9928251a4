@@ -1,0 +1,10 @@
+
+w
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "root".(ö±Žîúÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùí±×
+\
+java:S1854"FRemove this useless assignment to local variable "slideshowViewModel".(Íž§Ø
+U
+java:S1161":Add the "@Override" annotation above this method signature(î•Éðûÿÿÿÿ
+M
+java:S1481"7Remove this unused "slideshowViewModel" local variable.(Íž§Ø
