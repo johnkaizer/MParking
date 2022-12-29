@@ -1,6 +1,7 @@
 package com.project.digiparking.Adapters;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.project.digiparking.CarParkDetailActivity;
 import com.project.digiparking.Model.LocationModel;
 import com.project.digiparking.R;
 import com.project.digiparking.ui.home.HomeFragment;
@@ -39,6 +41,16 @@ public class LocationAdapter extends RecyclerView.Adapter<LocationAdapter.ViewHo
         holder.amount.setText(list.get(position).getAmount());
         holder.name.setText(list.get(position).getName());
         holder.cardV.startAnimation(AnimationUtils.loadAnimation(holder.itemView.getContext(),R.anim.anim_one));
+        holder.cardV.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context, CarParkDetailActivity.class);
+//                intent.putExtra("title",list.get(position).getDisease());
+//                intent.putExtra("amount",list.get(position).getAmount());
+                context.startActivity(intent);
+
+            }
+        });
 
     }
 
