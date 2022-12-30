@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CarParkDetailActivity"
+    tools:context=".Activities.CarParkDetailActivity"
     android:background="@color/white"
     android:orientation="vertical">
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -312,6 +312,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/book"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"

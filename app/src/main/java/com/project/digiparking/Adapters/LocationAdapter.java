@@ -13,7 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.project.digiparking.CarParkDetailActivity;
+import com.project.digiparking.Activities.CarParkDetailActivity;
 import com.project.digiparking.Model.LocationModel;
 import com.project.digiparking.R;
 import com.project.digiparking.ui.home.HomeFragment;
