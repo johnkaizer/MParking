@@ -1,4 +1,4 @@
-package com.project.digiparking.ui.Maps;
+package com.project.digiparking.ui.Bookings;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,21 +9,20 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.project.digiparking.databinding.FragmentSlideshowBinding;
+import com.project.digiparking.databinding.FragmentBookingsBinding;
 
-public class SlideshowFragment extends Fragment {
 
-    private FragmentSlideshowBinding binding;
+public class BookingsFragment extends Fragment {
+
+    private FragmentBookingsBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        SlideshowViewModel slideshowViewModel =
-                new ViewModelProvider(this).get(SlideshowViewModel.class);
 
-        binding = FragmentSlideshowBinding.inflate(inflater, container, false);
-        View root = binding.getRoot();
 
-        return root;
+        binding = FragmentBookingsBinding.inflate(inflater, container, false);
+
+        return binding.getRoot();
     }
 
     @Override

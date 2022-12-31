@@ -16,8 +16,6 @@ X
 Mapp/src/androidTest/java/com/project/digiparking/ExampleInstrumentedTest.java,6\3\63553cf8d5d9a49ccfb3e702e06ec1f77c6573ad
 n
 >app/src/test/java/com/project/digiparking/ExampleUnitTest.java,b\2\b2f9cee725ac64480058f490e55bdae1431d8334
-t
-Dapp/src/main/java/com/project/digiparking/ui/home/HomeViewModel.java,b\6\b652f61896c96d5cad6bcce09d65f2d51cdf6ee0
 A
 gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
 H
@@ -34,12 +32,8 @@ i
 settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
 r
 Bapp/src/main/java/com/project/digiparking/Model/LocationModel.java,6\9\692ad0b8898e73fc2a80eb44c0357869519e82bc
-k
-;app/src/main/java/com/project/digiparking/MainActivity.java,7\7\770fd1c0884afde5eaca941c242fa96deed32303
 v
 Fapp/src/main/java/com/project/digiparking/Activities/HelpActivity.java,c\3\c33bb7e7d1b86d5e08538c1beaf411bf7c5c2386
-w
-Gapp/src/main/java/com/project/digiparking/Activities/AboutActivity.java,0\9\09dd1112e491900dc07561730ba4392dab3d0b06
 y
 Iapp/src/main/java/com/project/digiparking/Activities/ProfileActivity.java,8\e\8ec5c4811bb3ce1df8c7e71592cbc4281533f4b0
 y

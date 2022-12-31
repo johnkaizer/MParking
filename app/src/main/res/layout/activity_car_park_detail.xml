@@ -179,7 +179,7 @@
             android:id="@+id/cardView9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
+            android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="100dp"

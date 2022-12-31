@@ -7,9 +7,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.project.digiparking.Authentication.SignInActivity;
-import com.project.digiparking.MainActivity;
-import com.project.digiparking.MapsActivity;
 import com.project.digiparking.R;
 
 public class CarParkDetailActivity extends AppCompatActivity {
@@ -23,7 +20,7 @@ public class CarParkDetailActivity extends AppCompatActivity {
         booking.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(CarParkDetailActivity.this, MapsActivity.class));
+//                startActivity(new Intent(CarParkDetailActivity.this, MapsActivity.class));
 
             }
         });
