@@ -34,6 +34,7 @@ public class HomeFragment extends Fragment {
 
         binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
+        //Image slider
         ImageSlider  imageSlider = root.findViewById(R.id.imageView2);
         ArrayList<SlideModel> slideModels = new ArrayList<>();
         slideModels.add(new SlideModel(R.drawable.park4, ScaleTypes.FIT));

@@ -1,5 +1,6 @@
 package com.project.digiparking.Adapters;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -36,7 +37,7 @@ public class LocationAdapter extends RecyclerView.Adapter<LocationAdapter.ViewHo
     }
 
     @Override
-    public void onBindViewHolder(@NonNull LocationAdapter.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull LocationAdapter.ViewHolder holder, @SuppressLint("RecyclerView") int position) {
         holder.image.setImageResource(list.get(position).getImage());
         holder.amount.setText(list.get(position).getAmount());
         holder.name.setText(list.get(position).getName());
@@ -45,8 +46,9 @@ public class LocationAdapter extends RecyclerView.Adapter<LocationAdapter.ViewHo
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(context, CarParkDetailActivity.class);
-//                intent.putExtra("title",list.get(position).getDisease());
-//                intent.putExtra("amount",list.get(position).getAmount());
+                intent.putExtra("title",list.get(position).getName());
+                intent.putExtra("amount",list.get(position).getAmount());
+                intent.putExtra("image",list.get(position).getImage());
                 context.startActivity(intent);
 
             }

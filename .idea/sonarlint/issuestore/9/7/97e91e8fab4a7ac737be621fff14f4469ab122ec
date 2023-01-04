@@ -1,0 +1,34 @@
+
+C
+java:S1604P"(Make this anonymous inner class a lambda(¡åá°ùÿÿÿÿ
+D
+java:S1604—"(Make this anonymous inner class a lambda(”à¼ğüÿÿÿÿ
+?
+java:S1604"(Make this anonymous inner class a lambda(Ÿ•İ´
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùí±×
+r
+java:S14508"\Remove the "markerOptions" field and declare it as a local variable in the relevant methods.(ÎÄ²¥
+R
+java:S1874J"7Remove this use of "LocationRequest"; it is deprecated.(ºä‚¤üÿÿÿÿ
+N
+java:S1874K"3Remove this use of "setInterval"; it is deprecated.(Á÷Ú°úÿÿÿÿ
+N
+java:S1874L"3Remove this use of "setPriority"; it is deprecated.(öÅí€şÿÿÿÿ
+Y
+java:S1874L">Remove this use of "PRIORITY_HIGH_ACCURACY"; it is deprecated.(öÅí€şÿÿÿÿ
+U
+java:S1874M"?Remove this use of "setSmallestDisplacement"; it is deprecated.(ÇëÍ¸
+P
+java:S1874N":Remove this use of "setFastestInterval"; it is deprecated.(„âæŠ
+P
+java:S2209V"5Change this instance-reference to a static reference.(ÙÔ¾úÿÿÿÿ
+K
+java:S2209W"5Change this instance-reference to a static reference.(õæªî
+Y
+java:S1155n">Use isEmpty() to check whether the collection is empty or not.(É€°Îøÿÿÿÿ
+D
+java:S1172"(Remove this unused method parameter "v".(š˜Ìÿùÿÿÿÿ
+n
+java:S3252"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(±¤Éˆ
+n
+java:S3252‘"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(Š¹Üÿ

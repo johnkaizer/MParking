@@ -5,7 +5,9 @@
       <map>
         <entry key="..\:/AndroidStudioProjects/DigiParking/app/src/main/res/drawable-v24/searchback.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/DigiParking/app/src/main/res/drawable/btn_back.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/DigiParking/app/src/main/res/drawable/calendar_bg.xml" value="0.1" />
         <entry key="..\:/AndroidStudioProjects/DigiParking/app/src/main/res/layout/activity_about.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/DigiParking/app/src/main/res/layout/activity_booking.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/DigiParking/app/src/main/res/layout/activity_car_park_detail.xml" value="0.2" />
         <entry key="..\:/AndroidStudioProjects/DigiParking/app/src/main/res/layout/activity_forgot_password.xml" value="0.2384428223844282" />
         <entry key="..\:/AndroidStudioProjects/DigiParking/app/src/main/res/layout/activity_help.xml" value="0.17617753623188406" />

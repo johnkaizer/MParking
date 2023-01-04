@@ -18,36 +18,10 @@
         android:id="@+id/imageView"
         android:layout_width="100dp"
         android:layout_height="80dp"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="4dp"
         android:contentDescription="@string/nav_header_desc"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/car_24" />
-
-    <TextView
-        android:id="@+id/name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="16dp"
-        android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="John Doe"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/yellow"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
-    <TextView
-        android:id="@+id/email"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:text="johndoe@gmail.com"
-        android:textColor="@color/yellow"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="@+id/name"
-        app:layout_constraintTop_toBottomOf="@+id/name" />
+        app:srcCompat="@drawable/icon" />
 </androidx.constraintlayout.widget.ConstraintLayout>
