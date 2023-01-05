@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BookingActivity"
     android:background="@color/grey"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".Activities.BookingActivity">
 
     <TextView
         android:id="@+id/place"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tuskys Supermarket Parking"
         android:gravity="center_horizontal"
+        android:text="Tuskys Supermarket Parking"
         android:textColor="@color/yellow"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -129,6 +128,7 @@
         app:layout_constraintTop_toTopOf="@+id/textViewTo" />
 
     <TextView
+        android:id="@+id/textView23"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -140,6 +140,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/park_time1" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/slots_RV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

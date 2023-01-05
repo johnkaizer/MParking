@@ -44,3 +44,9 @@ Gapp/src/main/java/com/project/digiparking/Activities/AboutActivity.java,0\9\09
 Kapp/src/main/java/com/project/digiparking/ui/Bookings/BookingsFragment.java,e\c\ec906980eb64c832134461dd236937bedb1db9c3
 s
 Capp/src/main/java/com/project/digiparking/ui/Maps/MapsFragment.java,9\7\97e91e8fab4a7ac737be621fff14f4469ab122ec
+r
+Bapp/src/main/java/com/project/digiparking/Model/LocationModel.java,6\9\692ad0b8898e73fc2a80eb44c0357869519e82bc
+|
+Lapp/src/main/java/com/project/digiparking/Authentication/SignInActivity.java,9\6\9672e4645efe19df8b673924c232cb5ed5d229d0
+s
+Capp/src/main/java/com/project/digiparking/ui/home/HomeFragment.java,5\1\519cd0d549654e0810bb2c3d09c5c9be1013ae24

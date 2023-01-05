@@ -9,9 +9,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.project.digiparking.Authentication.SignInActivity;
-import com.project.digiparking.BookingActivity;
-import com.project.digiparking.MainActivity;
 import com.project.digiparking.R;
 
 public class CarParkDetailActivity extends AppCompatActivity {
