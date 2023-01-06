@@ -30,22 +30,22 @@ Mparking is an android application that enables users to locate parking spaces, 
 2. Create a Lipa na MPESA Online App
 3. Copy and use the provided 'Secret_Key' and 'Consumer_key' in your code at the gradle properties
 
-### Getting Googls Mapas API Credentials
+### Getting Googls Maps API Credentials
 1. Create an account on the [Google Cloud Console] (https://mapsplatform.google.com/)
 2. Create a new project and navigate to the API and Credentials
 3. Click the API or SDK you want to enable
 4. On the Credentials page, click Create credentials > API key.The API key created dialog displays your newly created API key.
 5. Copy and use the provided 'API_Key' and use it in your code in the string folder.
 
-### Getting Firebase 
+### Getting started with Firebase services 
 1. Create an account on the [Google Firebase Console] (https://console.firebase.google.com/)
 2. Create a new project and navigate through
 3. Go back to android studeio in the tools at the menu select firbase. a pop up window displays from the right of the screen connect your android project to firebase
 4. Enable firbase authenticatios
 
-## Getting Started
+## Getting Started with running the App
 In order to get the app running yourself, you need to:
-1.  Clone this project
+1.  Clone this project from `https://github.com/johnkaizer/MParking.git`
 2.  Import the project into Android Studio
 3.  Connect your android device with USB or use your emulator
 4.  After the project has finished resolving dependencies and building you run
