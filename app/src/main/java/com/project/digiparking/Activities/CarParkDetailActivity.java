@@ -37,7 +37,7 @@ public class CarParkDetailActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(CarParkDetailActivity.this, BookingActivity.class));
-
+                finish();
             }
         });
     }

@@ -6,8 +6,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
-import com.project.digiparking.ParkingSlotsAdapter;
-import com.project.digiparking.ParkingSlotsModel;
+import com.project.digiparking.Adapters.ParkingSlotsAdapter;
+import com.project.digiparking.Model.ParkingSlotsModel;
 import com.project.digiparking.R;
 
 import java.util.ArrayList;
