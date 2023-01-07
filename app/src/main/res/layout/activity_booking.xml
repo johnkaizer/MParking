@@ -22,10 +22,48 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Hourly Rates:"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/place" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="200"
+        android:textColor="@color/yellow"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView33"
+        app:layout_constraintStart_toEndOf="@+id/textView33"
+        app:layout_constraintTop_toTopOf="@+id/textView33" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="KSH"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/amount"
+        app:layout_constraintStart_toEndOf="@+id/amount"
+        app:layout_constraintTop_toTopOf="@+id/amount" />
+
+    <TextView
         android:id="@+id/textView18"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:gravity="center_horizontal"
         android:text="Select Date"
         android:textColor="@color/white"
@@ -33,7 +71,7 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/place" />
+        app:layout_constraintTop_toBottomOf="@+id/textView33" />
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:id="@+id/linearLayoutCompat"
@@ -133,13 +171,50 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:gravity="center_horizontal"
-        android:text="Available Slots"
+        android:text="Available Slots Select"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/park_time1" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="Duration"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/park_time"
+        app:layout_constraintStart_toEndOf="@+id/park_time"
+        app:layout_constraintTop_toTopOf="@+id/park_time" />
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="2"
+        android:textColor="@color/yellow"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/textView32"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:text="Hours"
+        android:textColor="@color/yellow"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/duration"
+        app:layout_constraintStart_toEndOf="@+id/duration"
+        app:layout_constraintTop_toTopOf="@+id/duration" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/slots_RV"
@@ -151,6 +226,25 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/btn_back1"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="@color/grey"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/slots_RV" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

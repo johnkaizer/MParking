@@ -16,7 +16,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
-import com.project.digiparking.MainActivity;
+import com.project.digiparking.Activities.EnterCarDetails;
 import com.project.digiparking.Model.User;
 import com.project.digiparking.R;
 
@@ -92,7 +92,7 @@ public class SignUpActivity extends AppCompatActivity {
                                         @Override
                                         public void onComplete(@NonNull Task<Void> task) {
                                             if (task.isSuccessful()){
-                                                startActivity(new Intent(SignUpActivity.this, MainActivity.class));
+                                                startActivity(new Intent(SignUpActivity.this, EnterCarDetails.class));
                                                 Toast.makeText(SignUpActivity.this,"User has been registered successfully!",Toast.LENGTH_SHORT).show();
                                                 finish();
                                             }else {

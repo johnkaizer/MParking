@@ -16,14 +16,10 @@ X
 Mapp/src/androidTest/java/com/project/digiparking/ExampleInstrumentedTest.java,6\3\63553cf8d5d9a49ccfb3e702e06ec1f77c6573ad
 n
 >app/src/test/java/com/project/digiparking/ExampleUnitTest.java,b\2\b2f9cee725ac64480058f490e55bdae1431d8334
-A
-gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
 H
 app/google-services.json,f\d\fd8d34b142d02ec743a8efefefd2c097961666e9
 €
 Papp/src/main/java/com/project/digiparking/Activities/ForgotPasswordActivity.java,9\8\98116fc27d57a1db6ee7d22939f6b86dcd827c99
-|
-Lapp/src/main/java/com/project/digiparking/Authentication/SignUpActivity.java,9\0\90327a44a401df841d100a8e4433b36d2141df3c
 v
 Fapp/src/main/java/com/project/digiparking/Activities/SplashScreen.java,e\4\e46b8d9c1a44b7b83d59ec1cc49c6375abf8bce4
 i
@@ -36,8 +32,6 @@ y
 Iapp/src/main/java/com/project/digiparking/Activities/ProfileActivity.java,8\e\8ec5c4811bb3ce1df8c7e71592cbc4281533f4b0
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
-@
-app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
 w
 Gapp/src/main/java/com/project/digiparking/Activities/AboutActivity.java,0\9\09dd1112e491900dc07561730ba4392dab3d0b06
 {
@@ -48,5 +42,9 @@ r
 Bapp/src/main/java/com/project/digiparking/Model/LocationModel.java,6\9\692ad0b8898e73fc2a80eb44c0357869519e82bc
 |
 Lapp/src/main/java/com/project/digiparking/Authentication/SignInActivity.java,9\6\9672e4645efe19df8b673924c232cb5ed5d229d0
-s
-Capp/src/main/java/com/project/digiparking/ui/home/HomeFragment.java,5\1\519cd0d549654e0810bb2c3d09c5c9be1013ae24
+{
+Kapp/src/main/java/com/project/digiparking/Adapters/ParkingSlotsAdapter.java,a\0\a0eaca6b4c0ef36c631164e7fe93bf9be50e5ef0
+v
+Fapp/src/main/java/com/project/digiparking/Model/ParkingSlotsModel.java,6\3\63af289cb8ef6a9ced35cd9427ec8eda9f82f55a
+w
+Gapp/src/main/java/com/project/digiparking/Adapters/LocationAdapter.java,a\1\a1a2c83bb1bf72c8cf84797fd08d25ba45da70a3

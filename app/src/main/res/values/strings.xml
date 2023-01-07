@@ -25,4 +25,6 @@
     <string name="MParking_details2">Take the hassle out of parking with the MParking app. Find parking in any major city, compare prices, plus save up to 50% when you book in advance.Free yourself from parking hassles by choosing the way you\'d like to book with plenty of choices, parking times to suit everyone, close-by locations, on the go on mobile./n Make payments through mpesa and scan QR code to gain access.</string>
     <string name="MParking">\@MParking</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

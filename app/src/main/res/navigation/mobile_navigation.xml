@@ -22,4 +22,9 @@
         android:name="com.project.digiparking.ui.Maps.MapsFragment"
         android:label="Map"
         tools:layout="@layout/fragment_maps" />
+    <fragment
+        android:id="@+id/nav_car"
+        android:name="com.project.digiparking.ui.CarDetails.CarFragment"
+        android:label="My Car"
+        tools:layout="@layout/fragment_car" />
 </navigation>

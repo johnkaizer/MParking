@@ -47,12 +47,12 @@ public class HomeFragment extends Fragment {
         location = root.findViewById(R.id.parkingRv);
         locationModels = new ArrayList<>();
 
-        locationModels.add(new LocationModel(R.drawable.foodplus, "Holdern Mall Parking","300"));
-        locationModels.add(new LocationModel(R.drawable.mmust, "MMUST Car Park","200"));
-        locationModels.add(new LocationModel(R.drawable.kakamega, "Harmony Motors Garage","400"));
-        locationModels.add(new LocationModel(R.drawable.kakamega, "Hard Rock Gardens Kakamega","200"));
-        locationModels.add(new LocationModel(R.drawable.muliro, "Muliro Gardens","250"));
-        locationModels.add(new LocationModel(R.drawable.tuskys, "Tuskys Parking Lot","200"));
+        locationModels.add(new LocationModel(R.drawable.foodplus, "Holden Mall Parking","1"));
+        locationModels.add(new LocationModel(R.drawable.mmust, "MMUST Car Park","5"));
+        locationModels.add(new LocationModel(R.drawable.kakamega, "Harmony Motors Garage","40"));
+        locationModels.add(new LocationModel(R.drawable.kakamega, "Hard Rock Gardens Kakamega","20"));
+        locationModels.add(new LocationModel(R.drawable.muliro, "Muliro Gardens","15"));
+        locationModels.add(new LocationModel(R.drawable.tuskys, "MegaMall Parking Lot","10"));
 
 
         locationAdapter = new LocationAdapter(getActivity(), locationModels, this);

@@ -17,5 +17,9 @@
             android:id="@+id/nav_maps"
             android:icon="@drawable/ic_baseline_map_24"
             android:title="Map" />
+        <item
+            android:id="@+id/nav_car"
+            android:icon="@drawable/car_24"
+            android:title="My Car" />
     </group>
 </menu>

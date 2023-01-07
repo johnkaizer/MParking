@@ -36,7 +36,12 @@ public class CarParkDetailActivity extends AppCompatActivity {
         booking.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(CarParkDetailActivity.this, BookingActivity.class));
+                String str = name.getText().toString();
+                String string = amount.getText().toString();
+                Intent intent = new Intent(CarParkDetailActivity.this, BookingActivity.class);
+                intent.putExtra("name", str);
+                intent.putExtra("money", string);
+                startActivity(intent);
                 finish();
             }
         });
