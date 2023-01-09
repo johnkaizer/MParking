@@ -1,0 +1,12 @@
+
+t
+java:S1488"YImmediately return this expression instead of assigning it to the temporary variable "p".(®”–˜úÿÿÿÿ
+t
+java:S1488"YImmediately return this expression instead of assigning it to the temporary variable "p".(Ò±ş¨øÿÿÿÿ
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‚äœÿÿÿÿÿ8™¥éëØ0
+P
+java:S1118	":Add a private constructor to hide the implicit public one.(¼Øûì
+
+java:S2178"fCorrect this "&" to "&&" and extract the right operand to a variable if it should always be evaluated.(úïÁÀşÿÿÿÿ
+W
+java:S5842"<Rework this part of the regex to not match the empty string.(Ò±ş¨øÿÿÿÿ
