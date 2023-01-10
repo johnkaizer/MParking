@@ -8,11 +8,12 @@ public class BookingModel {
     String endTime;
     String model;
     String plate;
+    String Amount;
 
     public BookingModel() {
     }
 
-    public BookingModel(String location, String spot, String date, String startTime, String endTime, String model, String plate) {
+    public BookingModel(String location, String spot, String date, String startTime, String endTime, String model, String plate, String amount) {
         this.location = location;
         this.spot = spot;
         this.date = date;
@@ -20,6 +21,7 @@ public class BookingModel {
         this.endTime = endTime;
         this.model = model;
         this.plate = plate;
+        Amount = amount;
     }
 
     public String getLocation() {
@@ -76,5 +78,13 @@ public class BookingModel {
 
     public void setPlate(String plate) {
         this.plate = plate;
+    }
+
+    public String getAmount() {
+        return Amount;
+    }
+
+    public void setAmount(String amount) {
+        Amount = amount;
     }
 }

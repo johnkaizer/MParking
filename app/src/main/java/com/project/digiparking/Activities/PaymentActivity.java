@@ -47,7 +47,7 @@ public class PaymentActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_payment);
         ButterKnife.bind(this);
-
+        mAmount.setText(getIntent().getExtras().getString("amount"));
         mProgressDialog = new ProgressDialog(this);
         mApiClient = new DarajaApiClient();
         mApiClient.setIsDebug(true); //Set True to enable logging, false to disable.

@@ -14,8 +14,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.project.digiparking.CarDetailsAdapter;
-import com.project.digiparking.CarDetailsModel;
+import com.project.digiparking.Adapters.CarDetailsAdapter;
+import com.project.digiparking.Model.CarDetailsModel;
 import com.project.digiparking.DBmain;
 import com.project.digiparking.R;
 import com.project.digiparking.databinding.FragmentCarBinding;

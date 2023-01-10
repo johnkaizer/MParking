@@ -1,4 +1,4 @@
-package com.project.digiparking;
+package com.project.digiparking.Adapters;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -13,7 +13,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.project.digiparking.Adapters.LocationAdapter;
+import com.project.digiparking.Model.CarDetailsModel;
+import com.project.digiparking.R;
 
 import java.util.ArrayList;
 

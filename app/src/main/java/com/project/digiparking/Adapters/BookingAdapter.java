@@ -51,7 +51,7 @@ public class BookingAdapter extends RecyclerView.Adapter<BookingAdapter.ViewHold
         TextView location, pSpot,startDate,endDate, startTime, endTime,cPlate,cModel;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            location = itemView.findViewById(R.id.location);
+            location = itemView.findViewById(R.id.location_txt);
             pSpot = itemView.findViewById(R.id.parking_spot);
             startDate = itemView.findViewById(R.id.date);
             endDate = itemView.findViewById(R.id.date1);

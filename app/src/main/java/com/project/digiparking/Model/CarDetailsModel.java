@@ -1,4 +1,4 @@
-package com.project.digiparking;
+package com.project.digiparking.Model;
 
 public class CarDetailsModel {
     private int id;
