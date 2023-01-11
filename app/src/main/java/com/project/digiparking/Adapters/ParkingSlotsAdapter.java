@@ -44,6 +44,7 @@ public class ParkingSlotsAdapter extends RecyclerView.Adapter<ParkingSlotsAdapte
             @Override
             public void onClick(View v) {
                 holder.card.setBackgroundResource(R.drawable.backgr);
+
             }
         });
     }

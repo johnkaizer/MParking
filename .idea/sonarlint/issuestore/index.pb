@@ -40,8 +40,6 @@ s
 Capp/src/main/java/com/project/digiparking/ui/Maps/MapsFragment.java,9\7\97e91e8fab4a7ac737be621fff14f4469ab122ec
 r
 Bapp/src/main/java/com/project/digiparking/Model/LocationModel.java,6\9\692ad0b8898e73fc2a80eb44c0357869519e82bc
-{
-Kapp/src/main/java/com/project/digiparking/Adapters/ParkingSlotsAdapter.java,a\0\a0eaca6b4c0ef36c631164e7fe93bf9be50e5ef0
 v
 Fapp/src/main/java/com/project/digiparking/Model/ParkingSlotsModel.java,6\3\63af289cb8ef6a9ced35cd9427ec8eda9f82f55a
 A
@@ -50,8 +48,6 @@ A
 app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
 p
 @app/src/main/java/com/project/digiparking/Model/AccessToken.java,9\c\9ceb06c94266c1c2aaa324d345bf9bcbe4cd66f4
-y
-Iapp/src/main/java/com/project/digiparking/Activities/BookingActivity.java,8\1\81ace6b6684521ecb4932f62c2a830891198fe43
 u
 Eapp/src/main/java/com/project/digiparking/Daraja/DarajaApiClient.java,e\7\e751cbbc8909bb3656bffec0797f1a2de2d3f07d
 k

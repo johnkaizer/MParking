@@ -1,9 +1,0 @@
-
-z
-java:S1319"dThe type of "list" should be an interface such as "List" rather than the implementation "ArrayList".(‹†è¬
->
-java:S1604+"(Make this anonymous inner class a lambda(ÔÀ¹
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(€²ßÁıÿÿÿÿ
-n	java:S116"TRename this field "row_index" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ‡ÙÀøÿÿÿÿ
-L
-java:S1172"6Remove this unused method parameter "bookingActivity".(‹†è¬
